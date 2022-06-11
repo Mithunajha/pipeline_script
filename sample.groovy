@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo "Hello ${params.Name} and Your Roll No is ${params.Roll No} from ${params.Section}"
+                echo "Hello ${params.Name} and Your Roll No is ${params.Roll_No} from ${params.Section}"
                 echo "Hope Your Area of Interest is ${params.Area_Of_Interest} and Your willingness is ${params.Placement_Willingness}"
             }
         }
